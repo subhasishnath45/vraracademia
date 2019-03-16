@@ -24,20 +24,32 @@
   <div class="collapse navbar-collapse" id="collapsibleNavbar">
     <ul class="navbar-nav">
       <li class="nav-item">
-        <a class="nav-link active" href="#">Home</a>
-      </li>
-      <!-- <li class="nav-item">
-        <a class="nav-link" href="#">Link</a>
+        <a class="nav-link active" href="#section01">Home</a>
       </li>
       <li class="nav-item">
-        <a class="nav-link" href="#">Link</a>
-      </li>  -->   
+        <a class="nav-link" href="#section02">About us</a>
+      </li>
+      <li class="nav-item">
+        <a class="nav-link" href="#section03">VR resources</a>
+      </li>  
+      <li class="nav-item">
+        <a class="nav-link" href="#section04">OUR partners</a>
+      </li> 
+      <li class="nav-item">
+        <a class="nav-link" href="#section05">VR in Education</a>
+      </li>
+      <li class="nav-item">
+        <a class="nav-link" href="#section06">Teacher testimonials</a>
+      </li>
+      <li class="nav-item">
+        <a class="nav-link" href="#section07">Contact us</a>
+      </li>
     </ul>
   </div>  
 </nav>
 </header>
 <div class="site-content">
-<div class="container-fluid">
+<div class="container-fluid" id="section01">
   <div class="row">
   	<div id="owl-demo" class="owl-carousel">
   		<div class="item">
@@ -57,7 +69,7 @@
 </div>
 <div class="container-fluid padding-horizontal-0">
 
-		<div class="Aboutwrapper">
+		<div class="Aboutwrapper" id="section02">
 			<div class="container">
 				<div class="row">
 					<div class="col-sm-12 text-center about-brief">
@@ -114,7 +126,7 @@
 </div>
 <!-- VR resources start -->
 <div class="container-fluid padding-horizontal-0">
-	<div class="Company-wrapper">
+	<div class="Company-wrapper" id="section03">
 		<div class="container">
 			<div class="row">
 				<div class="col-md-12">
@@ -157,7 +169,7 @@ It has survived not only five centuries, but also the leap into electronic types
 <!-- VR resources end -->
 <!-- our partners start -->
 <div class="container-fluid padding-horizontal-0">
-	<div class="partners-wrapper">
+	<div class="partners-wrapper" id="section04">
 		<div class="container">
 			<div class="row">
 				<div class="col-md-12">
@@ -185,7 +197,7 @@ It has survived not only five centuries, but also the leap into electronic types
 <!-- virtual reality in education starts -->
 
 <div class="container-fluid padding-horizontal-0">
-	<div class="vr-education-wrapper">
+	<div class="vr-education-wrapper" id="section05">
 		<div class="container">
 			<div class="row">
 				<div class="col-md-12">
@@ -236,15 +248,155 @@ PRE-SCHOOL EDUCATION</h4>
 </div>
 
 <!-- virtual reality in education ends -->
+<!-- Teacher testimonials start -->
+<div class="container-fluid padding-horizontal-0">
+  	<div class="testimonials-wrapper" id="section06">
+		<div class="container">
+			<div class="row">
+				<div class="col-md-12">
+					<h2 class="section-heading text-center"><span>Teacher </span> Testimonials</h2>
+				</div>
+				<div class="col-md-12">
+				<div id="owl-demo-03">
+				          
+				  <div class="item">
+				  		<div class="testimonial-person">
+					  		<div class="testimonial-left">
+					  			<img src="img/teacher.png" class="img-fluid" />
+					  		</div>
+					  		<div class="testimonial-right">
+					  			<ul>
+					  				<li>NATHAN ASHMAN</li>
+					  				<li>Lead Teacher for New Technologies, St Wilfrid’s Academy</li>
+					  			</ul>
+					  		</div>
+				  		</div>
+				  		<div class="testimonial-writeup">
+				  			<p>
+				  				Over the past few months we’ve been experimenting with some new and creative methods to engage our children within the classroom. Through using our recently acquired ClassVR headsets, we’ve found a vast improvement not only in children’s engagement with learning, but in their motivation to both plan and write a story.
+				  			</p>
+				  		</div>
+				  </div>
+				  <div class="item">
+				  		<div class="testimonial-person">
+					  		<div class="testimonial-left">
+					  			<img src="img/teacher.png" class="img-fluid" />
+					  		</div>
+					  		<div class="testimonial-right">
+					  			<ul>
+					  				<li>NATHAN ASHMAN</li>
+					  				<li>Lead Teacher for New Technologies, St Wilfrid’s Academy</li>
+					  			</ul>
+					  		</div>
+				  		</div>
+				  		<div class="testimonial-writeup">
+				  			<p>
+				  				Over the past few months we’ve been experimenting with some new and creative methods to engage our children within the classroom. Through using our recently acquired ClassVR headsets, we’ve found a vast improvement not only in children’s engagement with learning, but in their motivation to both plan and write a story.
+				  			</p>
+				  		</div>
+				  </div>
+				  <div class="item">
+				  		<div class="testimonial-person">
+					  		<div class="testimonial-left">
+					  			<img src="img/teacher.png" class="img-fluid" />
+					  		</div>
+					  		<div class="testimonial-right">
+					  			<ul>
+					  				<li>NATHAN ASHMAN</li>
+					  				<li>Lead Teacher for New Technologies, St Wilfrid’s Academy</li>
+					  			</ul>
+					  		</div>
+				  		</div>
+				  		<div class="testimonial-writeup">
+				  			<p>
+				  				Over the past few months we’ve been experimenting with some new and creative methods to engage our children within the classroom. Through using our recently acquired ClassVR headsets, we’ve found a vast improvement not only in children’s engagement with learning, but in their motivation to both plan and write a story.
+				  			</p>
+				  		</div>
+				  </div>
+				  <div class="item">
+				  		<div class="testimonial-person">
+					  		<div class="testimonial-left">
+					  			<img src="img/teacher.png" class="img-fluid" />
+					  		</div>
+					  		<div class="testimonial-right">
+					  			<ul>
+					  				<li>NATHAN ASHMAN</li>
+					  				<li>Lead Teacher for New Technologies, St Wilfrid’s Academy</li>
+					  			</ul>
+					  		</div>
+				  		</div>
+				  		<div class="testimonial-writeup">
+				  			<p>
+				  				Over the past few months we’ve been experimenting with some new and creative methods to engage our children within the classroom. Through using our recently acquired ClassVR headsets, we’ve found a vast improvement not only in children’s engagement with learning, but in their motivation to both plan and write a story.
+				  			</p>
+				  		</div>
+				  </div>
+				</div>
+				</div>
+			</div>
+		</div>
+	</div>
 </div>
-<div class="jumbotron text-center" style="margin-bottom:0">
-  <p>Footer</p>
+<!-- Teacher testimonials end -->
+<!-- Contact us starts -->
+
+<div class="container-fluid padding-horizontal-0">
+  	<div class="contactus-wrapper" id="section07">
+		<div class="container">
+			<div class="row">
+				<div class="col-md-12">
+					<h2 class="section-heading text-center"><span>Contact </span> us</h2>
+				</div>
+				<div class="col-md-6 offset-md-3">
+					<form method="post" name="frm" action="" enctype="multipart/form-data" class="career-form">
+						<div class="form-group row">
+	                        <label for="contact_name" class="col-lg-2 col-form-label">Name:</label>
+	                        <input type="text" data-validation="required length" data-validation-length="min5" class="col-lg-10 form-control" id="contact_name" name="contact_name">
+						</div>
+	                     <div class="form-group row">
+	                        <label for="contact_email" class="col-lg-2 col-form-label">Email:</label>
+	                        <input type="text" data-validation="required email" class="col-lg-10 form-control" id="contact_email" name="contact_email">
+	                     </div>
+                      	<div class="form-group row">
+	                        <label for="contact_subject" class="col-lg-2 col-form-label">Subject:</label>
+	                        <input type="text" data-validation="required length" data-validation-length="min5" class="col-lg-10 form-control" id="contact_subject" name="contact_subject">
+	                    </div>
+                      	<div class="form-group row">
+	                        <label for="contact_message" class="col-lg-2 col-form-label">Your message:</label>
+	                        <div class="col-lg-10 padding-horizontal-0">
+	                        <textarea id="contact_message" name="contact_message"></textarea>
+	                        <p>
+                        	 <span id="max-length-element">100</span> chars left
+	                        </p>
+	                    	</div>
+	                    </div>
+	                    <div class="form-group row" style="justify-content: center;">
+                          	<input type="submit" style="align-self: center;" class="btn btn-primary btn-lg" name="submit" value="Submit">
+	                    </div>
+					</form>
+				</div>
+			</div>
+		</div>
+	</div>
+</div>
+
+<!-- Contact us ends -->
+</div>
+<div class="footer-wrapper" id="section08">
+  	<div class="container-fluid">
+		<div class="row">
+			<div class="col-md-12 text-center">
+				&copy; <?php echo date("Y"); ?> vraracademia
+			</div>
+		</div>
+	</div>
 </div>
 <script type="text/javascript" src="https://code.jquery.com/jquery-1.12.4.min.js"></script>
 <!-- <script src="js/vendor/jquery.min-3.3.1.js"></script> -->
 <script src="js/vendor/popper.min.js"></script>
 <script src="js/vendor/bootstrap.min.js"></script>
 <script src="js/vendor/owl.carousel.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/jquery-form-validator/2.3.26/jquery.form-validator.min.js"></script>
 <script src="js/main.js"></script>
 </body>
 </html>
