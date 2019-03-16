@@ -3,7 +3,7 @@
 <head>
   <title>Welcome to vraracademia</title>
   <meta charset="utf-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0 , maximum-scale=1.0, user-scalable=no">
   <link rel="stylesheet" href="css/bootstrap.min.css">
   <link rel="stylesheet" href="css/owl.carousel.css">
   <link rel="stylesheet" href="font-awesome-4.7.0/css/font-awesome.css">
@@ -12,7 +12,7 @@
 </head>
 <body>
 <header class="site-header">
-<nav class="navbar navbar-expand-sm fixed-top">
+<nav class="navbar navbar-expand-md fixed-top">
   <a class="navbar-brand" href="#">
   	<div class="site-logo">
   		<img src="img/site-logo.png" class="img-fluid">

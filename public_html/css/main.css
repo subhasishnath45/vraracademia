@@ -29,7 +29,7 @@ div#collapsibleNavbar {
     height: 100%;
     /*padding: 20px 0;*/
 }
-.navbar-expand-sm .navbar-nav .nav-link {
+.navbar-expand-md .navbar-nav .nav-link {
     padding-right: 2rem;
     padding-left: 2rem;
     padding-top: 28px;
@@ -119,7 +119,7 @@ a.navbar-brand {
     width: 50%;
 }
 .company-icon-wrapper {
-    background: radial-gradient(rgba(150, 149, 149, 0.85),rgb(0, 36, 68)), url(./img/gopro-logo.png);
+    background: radial-gradient(rgba(150, 149, 149, 0.85),rgb(0, 36, 68));
     background-size: contain;
     height: 250px;
     display: flex;
@@ -328,11 +328,11 @@ h2.section-heading span {
 .about-brief p{
 font-size: 1.2em;
 }
-.navbar-expand-sm .navbar-nav .nav-link:hover {
+.navbar-expand-md .navbar-nav .nav-link:hover {
     background-color: #ffab00;
     color: #ffffff;
 }
-.navbar-expand-sm .navbar-nav .nav-link {
+.navbar-expand-md .navbar-nav .nav-link {
     transition: 0.3s;
 }
 
@@ -385,3 +385,226 @@ span.help-block.form-error {
     color: #b12425;
     font-size: 1.2em;
 }
+textarea#contact_message {
+    width: 100%;
+}
+input[type="submit"] {
+    border: 1px solid;
+    border-color: #201b21;
+    border-radius: 3px;
+    background: #201b21;
+    color: rgba(255, 239, 239, 0.8);
+    font-size: 12px;
+    font-size: 1rem;
+    line-height: 1;
+    padding: 1em 2em 1em;
+    text-transform: uppercase;
+    align-self: center;
+}
+div#section08 {
+    background: #7d5503;
+    padding: 20px;
+    color: #ffffff;
+    text-transform: uppercase;
+    font-size: 0.8em;
+}
+div#section08 a {
+    color: #ffffff;
+}
+.contactus-wrapper {
+    padding: 100px 0;
+    background: #4c3403;
+    color: #ffffff;
+}
+
+
+/*-- Media Queries start --*/
+@media (max-width: 575px) {
+
+#owl-demo .item img {
+    max-width: 100%;
+    height: 50vh;
+    object-fit: cover;
+    object-position: right;
+}
+button.navbar-toggler {
+    border: 2px solid #444444;
+    background: #dddddd;
+    margin-right: 5%;
+}
+
+span.navbar-toggler-icon {
+    background: url(../img/menu-bars.png) no-repeat;
+    background-size: contain;
+}
+nav.navbar.navbar-expand-md.fixed-top {
+    background: #ffffff;
+}
+ul.navbar-nav {
+    overflow-y: scroll;
+    height: 100vh;
+}
+h2.section-heading {
+    font-size: 1.5em;
+}
+.vr-education-sec-01, .vr-education-sec-03 {
+    flex-direction: column;
+}
+.vr-education-sec-02,.vr-education-sec-04 {
+    flex-direction: column;
+    text-align: left;
+}
+.vr-education-sec-01 .vr-education-right, .vr-education-sec-03 .vr-education-right,
+.vr-education-sec-02 .vr-education-right, .vr-education-sec-04 .vr-education-right {
+    width: 100%;
+    left: 0;
+}
+.vr-education-sec-01 .vr-education-left, .vr-education-sec-03 .vr-education-left,
+.vr-education-sec-02 .vr-education-left, .vr-education-sec-04 .vr-education-left {
+    width: 100%;
+}
+.testimonial-left {
+    height: 104px;
+    width: 100px;
+    border: 2px solid #ffab00;
+    border-radius: 50%;
+    align-self: center;
+}
+.testimonial-right {
+    text-align: center;
+}
+.testimonial-left img {
+    width: 100px;
+    height: 100px;
+    align-self: center;
+    border-radius: 50%;
+}
+.testimonial-left {
+    height: 104px;
+    width: 100px;
+    border: 2px solid #ffab00;
+    border-radius: 50%;
+    align-self: center;
+}
+.testimonial-person {
+    flex-direction: column;
+}
+.contactus-wrapper {
+    padding: 50px 20px;
+}
+.company-info-wrapper {
+    margin-bottom: 20px;
+}
+.vr-education-sec-01 .vr-education-right:after, .vr-education-sec-03 .vr-education-right:after {
+    display: none;
+}
+.icon-section {
+    margin-bottom: 20px;
+}
+.Aboutwrapper,
+.Company-wrapper,
+.partners-wrapper,
+.vr-education-wrapper {
+    padding: 50px 0;
+}
+h2.section-heading:after, h2.section-heading:before {
+    display: none;
+}
+}
+
+/* Small devices (landscape phones, 576px and up)*/
+@media (min-width: 576px) and (max-width: 767px) { 
+
+#owl-demo .item img {
+    max-width: 100%;
+    height: 50vh;
+    object-fit: cover;
+    object-position: right;
+}
+button.navbar-toggler {
+    border: 2px solid #444444;
+    background: #dddddd;
+    margin-right: 5%;
+}
+
+span.navbar-toggler-icon {
+    background: url(../img/menu-bars.png) no-repeat;
+    background-size: contain;
+}
+nav.navbar.navbar-expand-md.fixed-top {
+    background: #ffffff;
+}
+ul.navbar-nav {
+    overflow-y: scroll;
+    height: 100vh;
+}
+h2.section-heading {
+    font-size: 1.5em;
+}
+.vr-education-sec-01, .vr-education-sec-03 {
+    flex-direction: column;
+}
+.vr-education-sec-02,.vr-education-sec-04 {
+    flex-direction: column;
+    text-align: left;
+}
+.vr-education-sec-01 .vr-education-right, .vr-education-sec-03 .vr-education-right,
+.vr-education-sec-02 .vr-education-right, .vr-education-sec-04 .vr-education-right {
+    width: 100%;
+    left: 0;
+}
+.vr-education-sec-01 .vr-education-left, .vr-education-sec-03 .vr-education-left,
+.vr-education-sec-02 .vr-education-left, .vr-education-sec-04 .vr-education-left {
+    width: 100%;
+}
+.testimonial-left {
+    height: 104px;
+    width: 100px;
+    border: 2px solid #ffab00;
+    border-radius: 50%;
+    align-self: center;
+}
+.testimonial-right {
+    text-align: center;
+}
+.testimonial-left img {
+    width: 100px;
+    height: 100px;
+    align-self: center;
+    border-radius: 50%;
+}
+.testimonial-left {
+    height: 104px;
+    width: 100px;
+    border: 2px solid #ffab00;
+    border-radius: 50%;
+    align-self: center;
+}
+.testimonial-person {
+    flex-direction: column;
+}
+.contactus-wrapper {
+    padding: 50px 20px;
+}
+.company-info-wrapper {
+    margin-bottom: 20px;
+}
+.vr-education-sec-01 .vr-education-right:after, .vr-education-sec-03 .vr-education-right:after {
+    display: none;
+}
+.icon-section {
+    margin-bottom: 20px;
+}
+.Aboutwrapper,
+.Company-wrapper,
+.partners-wrapper,
+.vr-education-wrapper {
+    padding: 50px 0;
+}
+h2.section-heading:after, h2.section-heading:before {
+    display: none;
+}
+
+}
+
+/*-- Media Queries end --*/
