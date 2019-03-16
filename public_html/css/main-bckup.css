@@ -1,0 +1,299 @@
+
+
+/* ==========================================================================
+   Author's custom styles
+   ========================================================================== */
+html {
+    box-sizing: border-box;
+}
+body{
+    margin: 0;
+    padding: 0;
+}
+.padding-horizontal-0 {
+    padding-right:0 !important;
+    padding-left:0 !important;
+}
+   header.site-header {
+    height: auto;
+    float: left;
+    width: 100%;
+    background: #ffffff;
+}
+
+.site-logo img {
+    height: 70px;
+}
+div#collapsibleNavbar {
+    background: #201b21;
+    height: 100%;
+    /*padding: 20px 0;*/
+}
+.navbar-expand-sm .navbar-nav .nav-link {
+    padding-right: 2rem;
+    padding-left: 2rem;
+    padding-top: 28px;
+    padding-bottom: 28px;
+    color: #ffffff;
+}
+.navbar {
+padding: 0;
+}
+ul.navbar-nav li a.active {
+    color: #fff;
+    background-color: #ffab00;
+}
+
+
+#owl-demo .owl-prev {
+    top: 40%;
+    position: absolute;
+    margin-bottom: -50%;
+    font-size: 2em;
+    left: 0;
+}
+#owl-demo .owl-next {
+    top: 40%;
+    position: absolute;
+    margin-bottom: -50%;
+    font-size: 2em;
+    right: 0;
+}
+a.navbar-brand {
+    background: #ffffff;
+    margin-right: 0;
+    padding: 0.3rem 2rem;
+}
+.card-img-top {
+    width: 50%;
+    border-top-left-radius: calc(.25rem - 1px);
+    border-top-right-radius: calc(.25rem - 1px);
+    margin: 0 25%;
+}
+.card{
+    border: none;
+}
+.card1 .card-img-holder {
+    position: relative;
+    background: #00fda1;
+}
+.card1 {
+    border:1px solid #00fda1;
+}
+.card1 .card-img-top{
+    mix-blend-mode: multiply;
+}
+
+.card2 .card-img-holder {
+    position: relative;
+    background: #0595f3;
+}
+.card2 {
+    border:1px solid #1C79B6;
+}
+.card2 .card-img-top{
+    mix-blend-mode: multiply;
+}
+
+.card3 .card-img-holder {
+    position: relative;
+    background: #FFAB00;
+}
+.card3 {
+    border:1px solid #FFAB00;
+}
+.card3 .card-img-top{
+    mix-blend-mode: multiply;
+}
+.Aboutwrapper {
+    padding: 100px 0;
+}
+.about-brief {
+    padding-bottom: 30px;
+}
+.Company-wrapper {
+    background: #E9ECEF;
+    padding: 100px 0;
+}
+.hp-icon-wrapper img {
+    width: 50%;
+}
+.company-icon-wrapper {
+    background: radial-gradient(rgba(150, 149, 149, 0.85),rgb(0, 36, 68)), url(./img/gopro-logo.png);
+    background-size: contain;
+    height: 250px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.company-desc {
+    padding: 20px;
+    background: #f1f1f1;
+    box-shadow: 0px 3px 0px 0px rgba(0,0,0,0.1);
+}
+
+.unity-icon-wrapper img {
+    width: 50%;
+}
+h2.section-heading {
+    padding-bottom: 20px;
+    font-size: 2.5em;
+    text-transform: uppercase;
+    color: #ffab00;
+}
+
+h2.section-heading:after, h2.section-heading:before {
+    content: "\A";
+    width: 15%;
+    height: 3px;
+    border-radius: 0;
+    background: #bd7f01;
+    display: inline-block;
+    margin: 0 10px;
+    top: -12px;
+    position: relative;
+}
+h2.section-heading span {
+    font-weight: bold;
+    color: #eca002;
+    font-style: italic;
+    font-size: 2em;
+}
+.partners-wrapper {
+    padding:100px 0;
+}
+#owl-demo-02 .item{
+  margin: 3px;
+}
+#owl-demo-02 .item img {
+    display: block;
+    width: auto;
+    height: 100px;
+    margin: 0 auto;
+}
+#owl-demo-02 .item {
+    background: rgba(0,0,0,0.05);
+    padding: 20px;
+}
+#owl-demo-02 .owl-prev {
+    top: 25%;
+    position: absolute;
+    font-size: 2em;
+    left: -7%;
+}
+#owl-demo-02 .owl-next {
+    top: 25%;
+    position: absolute;
+    font-size: 2em;
+    right: -7%;
+}
+.vr-education-sec-01,
+.vr-education-sec-03 {
+    display: flex;
+    flex-wrap: nowrap;
+    justify-content: center;
+    background: #ffffff;
+    flex-direction: row;
+    margin-bottom: 20px;
+}
+.vr-education-sec-01 .vr-education-left,
+.vr-education-sec-03 .vr-education-left {
+    margin-right: auto;
+    width: 50%;
+    background: #FFAB00;
+}
+.vr-education-sec-01 .vr-education-left img,
+.vr-education-sec-03 .vr-education-left img {
+        mix-blend-mode: multiply;
+}
+.vr-education-sec-01 .vr-education-right,
+.vr-education-sec-03 .vr-education-right {
+    width: 50%;
+    padding: 20px;
+    align-self: center;
+    background: #ffffff;
+    position: relative;
+    left: -10%;
+    height: auto;
+}
+.vr-education-wrapper {
+    padding: 100px 0;
+    background: #e9ecef;
+}
+.vr-education-right h4 {
+    font-size: 2em;
+    color: #ffab00;
+    text-transform: uppercase;
+    padding-bottom: 10px;
+}
+.vr-education-sec-01 .vr-education-right:after,
+.vr-education-sec-03 .vr-education-right:after {
+    background: #f3efea;
+    position: absolute;
+    left: 100%;
+    width: 50px;
+    content: "";
+    height: 100%;
+    top: 0;
+}
+.vr-education-right p {
+    font-size: 1.2em;
+}
+
+.vr-education-sec-02 {
+    display: flex;
+    flex-wrap: nowrap;
+    justify-content: center;
+    background: #ffffff;
+    flex-direction: row-reverse;
+    text-align: right;
+    margin-bottom: 20px;
+}
+.vr-education-sec-04 {
+    display: flex;
+    flex-wrap: nowrap;
+    justify-content: center;
+    background: #ffffff;
+    flex-direction: row-reverse;
+    text-align: right;
+    margin-bottom: 0;
+}
+.vr-education-sec-02 .vr-education-left,
+.vr-education-sec-04 .vr-education-left {
+    margin-right: auto;
+    width: 50%;
+    background: #FFAB00;
+}
+.vr-education-sec-02 .vr-education-left img,
+.vr-education-sec-04 .vr-education-left img {
+        mix-blend-mode: multiply;
+}
+.vr-education-sec-02 .vr-education-right,
+.vr-education-sec-04 .vr-education-right {
+    width: 50%;
+    padding: 20px;
+    align-self: center;
+    background: #ffffff;
+    position: relative;
+    right: -10%;
+    height: auto;
+}
+.vr-education-sec-02 .vr-education-right:after,
+.vr-education-sec-04 .vr-education-right:after {
+    background: #f3efea;
+    position: absolute;
+    right: 100%;
+    width: 50px;
+    content: "";
+    height: 100%;
+    top: 0;
+}
+.about-brief h2 {
+    padding-bottom: 20px;
+    font-size: 2.5em;
+    text-transform: uppercase;
+    color: #ffab00;
+}
+.about-brief p{
+font-size: 1.2em;
+}
