@@ -66,14 +66,30 @@ function isBodyScrolled(){
 
 function owlInit(){
         var homeOwl = $("#owl-demo");
+        var sliderCaptiontext = $(".slider-caption-text");
         if(homeOwl.length > 0){
           homeOwl.owlCarousel({
-          slideSpeed : 300,
+          slideSpeed : 3000,
           paginationSpeed : 400,
           singleItem : true,
           autoPlay: true,
           stopOnHover: false,
-      navigation : true,
+          navigation : true,
+          transitionStyle: "fade",
+          afterAction: function(el){
+           //remove class active
+           this
+           .$owlItems
+           .removeClass('owl-active');
+           
+
+           //add class active
+           this
+           .$owlItems //owl internal $ object containing items
+           .eq(this.currentItem)
+           .addClass('owl-active');    
+
+            },
       navigationText : ['<span class="fa-stack"><i class="fa fa-circle fa-stack-1x"></i><i class="fa fa-chevron-circle-left fa-stack-1x fa-inverse"></i></span>','<span class="fa-stack"><i class="fa fa-circle fa-stack-1x"></i><i class="fa fa-chevron-circle-right fa-stack-1x fa-inverse"></i></span>'],
           // "singleItem:true" is a shortcut for:
           // items : 1, 
@@ -84,6 +100,15 @@ function owlInit(){
 
           });
         }
+
+          // $('.owl-active').each(function(){
+          //   $(this).find('h3.slider-caption-text').addClass("animated fadeInUp delay-2s");
+          // });
+          // $('.owl-item').find('h3.slider-caption-text').removeClass("animated fadeInUp delay-2s");
+        
+
+
+        sliderCaptiontext
         var partnersOwl = $("#owl-demo-02");
         if(partnersOwl.length > 0){
           partnersOwl.owlCarousel({
@@ -112,6 +137,25 @@ function owlInit(){
       			navigationText : ['<span class="fa-stack"><i class="fa fa-circle fa-stack-1x"></i><i class="fa fa-chevron-circle-left fa-stack-1x fa-inverse"></i></span>','<span class="fa-stack"><i class="fa fa-circle fa-stack-1x"></i><i class="fa fa-chevron-circle-right fa-stack-1x fa-inverse"></i></span>'],
           });
       }
+
+
+      var resourcesOwl = $("#owl-demo-04");
+      if(resourcesOwl.length > 0){
+
+          resourcesOwl.owlCarousel({
+         
+              autoPlay: 3000, //Set AutoPlay to 3 seconds
+         
+              items : 4,
+              itemsDesktop : [1199,3],
+              itemsDesktopSmall : [979,3],
+ stopOnHover: false,
+      navigation : true,
+      navigationText : ['<span class="fa-stack"><i class="fa fa-circle fa-stack-1x"></i><i class="fa fa-chevron-circle-left fa-stack-1x fa-inverse"></i></span>','<span class="fa-stack"><i class="fa fa-circle fa-stack-1x"></i><i class="fa fa-chevron-circle-right fa-stack-1x fa-inverse"></i></span>'],
+          });
+
+      }
+
 }
 
 function HeaderHeightMarginTop(){

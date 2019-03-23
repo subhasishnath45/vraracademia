@@ -6,11 +6,9 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0 , maximum-scale=1.0, user-scalable=no">
   <link rel="stylesheet" href="css/bootstrap.min.css">
   <link rel="stylesheet" href="css/owl.carousel.css">
-  <link href="css/owl.transitions.css" rel="stylesheet">
-  <link href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/3.5.1/animate.min.css" rel="stylesheet">
   <link rel="stylesheet" href="font-awesome-4.7.0/css/font-awesome.css">
   <link rel="stylesheet" href="css/main.css">
-  <link href="https://fonts.googleapis.com/css?family=Cuprum" rel="stylesheet">
+
 </head>
 <body>
 <header class="site-header">
@@ -55,36 +53,16 @@
   <div class="row">
   	<div id="owl-demo" class="owl-carousel">
   		<div class="item">
-  			<img src="img/Education-01.png" class="img-fluid">
-			<div class="item-caption">
-				<h3 class="slider-caption-text">
-					Education
-				</h3>
-			</div>
+  			<img src="img/Education-01.jpg" class="img-fluid">
   		</div>
       <div class="item">
-        <img src="img/EmergingTechnology_01.png" class="img-fluid">
-		<div class="item-caption">
-			<h3 class="slider-caption-text">
-				emerging technology
-			</h3>
-		</div>
+        <img src="img/Emerging Technology_01.jpg" class="img-fluid">
       </div>
       <div class="item">
-        <img src="img/EnterprisePage-01.png" class="img-fluid">
-		<div class="item-caption">
-			<h3 class="slider-caption-text">
-				enterprise
-			</h3>
-		</div>
+        <img src="img/EnterprisePage-01.jpg" class="img-fluid">
       </div>
       <div class="item">
-        <img src="img/Entrepreneur-01.png" class="img-fluid">
-		<div class="item-caption">
-			<h3 class="slider-caption-text">
-				entrepreneur
-			</h3>
-		</div>
+        <img src="img/Entrepreneur-01.jpg" class="img-fluid">
       </div>
   	</div>
   </div>
@@ -95,16 +73,9 @@
 			<div class="container">
 				<div class="row">
 					<div class="col-sm-12 text-center about-brief">
-						<h2 class="">&quot;The only Source of Knowledge is Experience&quot;<br>-Albert Einstein</h2>
+						<h2 class="">ENABLING IMMERSIVE INTELLIGENCE THROUGH SUPERIOR VISUAL COMPUTING</h2>
 						<p>
-							VR AR Academia is a Virtual/Augmented Reality Training organisation dedicated to transforming how content is delivered and consumed globally by creating experts and trainers on VR/AR who can integrate VR/AR in schools, News & media, hospitals, Engineering and various industries and even in retail.
-<br><br>
- VR/AR is a unique emerging technology & simulation that has global and multifunctional scope in its purpose. Our aim is essentially to enhance content in different industries by using this new “means of technology. 
- <br><br>
-We strongly believe that to disseminate VR/AR globally, we primarily need teachers equipped to integrate it into different institutional curriculum and actively guide the integration of AR/VR into pre-existing content forming models. 
-<br><br>
-This is VR AR Academia  commitment to the global education society, taking another step towards fulfilling our mission of bringing VR-based educational solutions making start-ups & Entrepreneurs in different aspects of life be it Research work to tourism, Healthcare to food business motivating learning and growth, throughout the world.
-
+							We at vraracademia are technology leaders, with the aim of providing visualisation solutions that simplify data to decision transformation at various organisations. Over the years, we have developed revolutionary turnkey solutions in the fields of Geospatial Intelligence, Professional AV, Virtual Reality and Simulation. With a growing client base, the company has clients in different industries including Defence Research and Development Organizations, Space Research Centres, police and paramilitary organizations, law enforcement institutions museums and educational institutes in India, as well as international conglomerates like Halliburton, AMD and SGI.
 						</p>
 					</div>
 				</div>
@@ -113,13 +84,11 @@ This is VR AR Academia  commitment to the global education society, taking anoth
 						<div class="icon-section">
 							<div class="card card1 text-center">
 							<div class="card-img-holder">
-								<img class="card-img-top" src="img/EmergingTechnology-01.jpg" alt="Card image cap">
+								<img class="card-img-top" src="img/new-tech.png" alt="Card image cap">
 							</div>
 							  <div class="card-body">
-							    <h5 class="card-title">Emerging-Tech</h5>
-							    <p class="card-text">VR AR Academia is a emerging technology training and development company. It is a new technology that is currently being developed  for  promoting education in the field of  AR/VR/MR/XR.
-It’s the new age  development of an existing methodology for the benefit of the students.
-</p>
+							    <h5 class="card-title">Emerging Technology</h5>
+							    <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
 							  </div>
 							</div>
 						</div>
@@ -128,11 +97,11 @@ It’s the new age  development of an existing methodology for the benefit of th
 						<div class="icon-section">
 							<div class="card card2 text-center">
 								<div class="card-img-holder">
-							  		<img class="card-img-top" src="img/EducationalTechnology-02.jpg" alt="Card image cap">
+							  		<img class="card-img-top" src="img/education.png" alt="Card image cap">
 								</div>
 							  <div class="card-body">
-							    <h5 class="card-title">Education Endeavour</h5>
-							    <p class="card-text">VR AR Academia  commitment to the global education society, taking another step towards fulfilling our mission of bringing VR-based educational activity in 100 pioneer Institutions in India jointly with HP as a Technology provider , Unity as a development platform, and Didactics as a  training partner.</p>
+							    <h5 class="card-title">Education</h5>
+							    <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
 							  </div>
 							</div>
 						</div>
@@ -141,11 +110,11 @@ It’s the new age  development of an existing methodology for the benefit of th
 						<div class="icon-section">
 							<div class="card card3 text-center">
 								<div class="card-img-holder">
-							  <img class="card-img-top" src="img/EntrepreneurEnterprise-02.jpg" alt="Card image cap">
+							  <img class="card-img-top" src="img/entrepreneur.png" alt="Card image cap">
 							</div>
 							  <div class="card-body">
-							    <h5 class="card-title">Entrepreneurship & Enterprise</h5>
-							    <p class="card-text">VR AR Academia  is also taking another step towards fulfilling our mission of bringing VR AR-based educational solutions making start-ups & Entrepreneurs in different aspects of life be it Research work to tourism, Healthcare to food business motivating learning and growth, throughout the world.</p>
+							    <h5 class="card-title">Entrepreneur Enterprise</h5>
+							    <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
 							  </div>
 							</div>
 						</div>
@@ -163,75 +132,35 @@ It’s the new age  development of an existing methodology for the benefit of th
 				<div class="col-md-12">
 					<h2 class="section-heading text-center"><span>VR</span> Resources</h2>
 				</div>
-
-				<div id="owl-demo-04" class="owl-carousel">
-					<div class="item">
-
-						<div class="company-info-wrapper">
-							<div class="company-icon-wrapper">
-								<img src="img/gopro-logo.png" class="img-fluid">
-							</div>
-							<div class="company-desc text-center">
-	It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.
-							</div>
+				<div class="col-sm-4">
+					<div class="company-info-wrapper">
+						<div class="company-icon-wrapper">
+							<img src="img/gopro-logo.png" class="img-fluid">
 						</div>
-
-					</div>
-
-					<div class="item">
-
-						<div class="company-info-wrapper">
-							<div class="company-icon-wrapper">
-								<img src="img/gopro-logo.png" class="img-fluid">
-							</div>
-							<div class="company-desc text-center">
-	It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.
-							</div>
+						<div class="company-desc text-center">
+It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.
 						</div>
-
 					</div>
-
-					<div class="item">
-
-						<div class="company-info-wrapper">
-							<div class="company-icon-wrapper">
-								<img src="img/gopro-logo.png" class="img-fluid">
-							</div>
-							<div class="company-desc text-center">
-	It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.
-							</div>
+				</div>
+				<div class="col-sm-4">
+					<div class="company-info-wrapper">
+						<div class="company-icon-wrapper hp-icon-wrapper">
+							<img src="img/hp-logo.png" class="img-fluid">
 						</div>
-
-					</div>
-
-
-					<div class="item">
-
-						<div class="company-info-wrapper">
-							<div class="company-icon-wrapper">
-								<img src="img/gopro-logo.png" class="img-fluid">
-							</div>
-							<div class="company-desc text-center">
-	It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.
-							</div>
+						<div class="company-desc text-center">
+It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.
 						</div>
-
 					</div>
-
-
-					<div class="item">
-
-						<div class="company-info-wrapper">
-							<div class="company-icon-wrapper">
-								<img src="img/gopro-logo.png" class="img-fluid">
-							</div>
-							<div class="company-desc text-center">
-	It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.
-							</div>
+				</div>
+				<div class="col-sm-4">
+					<div class="company-info-wrapper">
+						<div class="company-icon-wrapper unity-icon-wrapper">
+							<img src="img/unity-logo.png" class="img-fluid">
 						</div>
-
+						<div class="company-desc text-center">
+It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.
+						</div>
 					</div>
-
 				</div>
 			</div>
 		</div>
@@ -468,10 +397,6 @@ PRE-SCHOOL EDUCATION</h4>
 <script src="js/vendor/bootstrap.min.js"></script>
 <script src="js/vendor/owl.carousel.js"></script>
 <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery-form-validator/2.3.26/jquery.form-validator.min.js"></script>
-<script src="js/vendor/wow.min.js"></script>
-<script>
-new WOW().init();
-</script>
 <script src="js/main.js"></script>
 </body>
 </html>
